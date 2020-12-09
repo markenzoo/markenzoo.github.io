@@ -3,6 +3,10 @@
 # abort on errors
 set -e
 
+dir=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+
+cd "$dir" || exit 1
+
 # build
 yarn docs:build
 
