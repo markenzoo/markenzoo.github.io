@@ -1,0 +1,18 @@
+{
+  "name": "@markenzoo/today-i-learned",
+  "version": "1.0.0",
+  "description": "What I learned today for web development",
+  "main": "index.js",
+  "repository": "https://github.com/markenzoo/Today-I-Learned",
+  "author": "Felix Kästner <kaestner@markenzoo.de>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.9.1"
+  }
+}
