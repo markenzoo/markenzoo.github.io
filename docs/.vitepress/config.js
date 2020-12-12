@@ -7,6 +7,8 @@ module.exports = {
     repo: "markenzoo/Today-I-Learned",
     docsDir: "docs",
 
+    base: "/",
+
     editLinks: true,
     editLinkText: "Jetzt auf GitHub bearbeiten",
     lastUpdated: "Zuletzt Aktualisiert",
