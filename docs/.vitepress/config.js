@@ -4,7 +4,7 @@ module.exports = {
   // prettier-ignore
   description: "Dokumentation, Grundlagen und interessante Informationen rund um die Web Entwicklung",
   themeConfig: {
-    repo: "vuejs/vitepress",
+    repo: "markenzoo/Today-I-Learned",
     docsDir: "docs",
 
     editLinks: true,
