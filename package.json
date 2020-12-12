@@ -11,12 +11,10 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "clean": "rimraf docs/.vitepress/dist"
+    "clean": "npx rimraf docs/.vitepress/dist"
   },
   "devDependencies": {
     "vitepress": "^0.9.1"
   },
-  "dependencies": {
-    "rimraf": "^3.0.2"
-  }
+  "dependencies": {}
 }

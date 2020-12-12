@@ -19,6 +19,10 @@ module.exports = {
         link: "/introduction",
       },
       {
+        text: "Einsteiger",
+        children: [{ text: "Contao Installation umziehen", link: "/deployment" }],
+      },
+      {
         text: "Fortgeschritten",
         children: [
           { text: "Eigene Insert-tags", link: "/custom-insert-tags" },
