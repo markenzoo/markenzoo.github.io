@@ -17,6 +17,9 @@ module.exports = {
 
     sidebar: [
       {
+        text: "Contao",
+        children: [
+      {
         text: "Einleitung",
         link: "/introduction",
       },
@@ -30,6 +33,15 @@ module.exports = {
           { text: "Eigene Insert-tags", link: "/custom-insert-tags" },
           { text: "Eigener CLI-Kommando", link: "/custom-symfony-command" },
         ],
+      },
+      ],
+      },
+      {
+        text: "Today I Learned",
+        children: [
+          {text: "Beitrag erstellen", link: "/create"},
+          {text: "Deployment", link: "/til-deployment"},
+      ],
       },
     ],
   },

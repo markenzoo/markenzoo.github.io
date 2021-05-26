@@ -126,6 +126,6 @@ class TestCommand extends AbstractLockedCommand
 vendor/bin/contao-console command:test
 ```
 
-### Geschafft !
+## Geschafft !
 
 Du solltest die gewünschte Ausgabe bekommen. Dieses Beispiel kann nun komplett nach deinen eigenen Wünschen erweitert werden.
